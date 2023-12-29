@@ -8,4 +8,5 @@
     ```
    in a terminal in the same directory (requires an installation of python). 
 
+## Optional
 Note colors can be changed directly within the source code in `create_layout.py`.
