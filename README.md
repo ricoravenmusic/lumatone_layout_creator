@@ -1,3 +1,6 @@
+# Lumatone isomorphic layout creator
+
+## How to use
 1. Download the file `create_layout.py` to the directory where your lumatone layouts (`.ltn` files) are stored.
 2. Run the command
     ```console
