@@ -42,6 +42,8 @@ for n in range(5):
     row_x = 7 * n
     row_y = 2 * n
     for row_len, delta_row_x, delta_row_y in zip(row_lens, deltas_row_x, deltas_row_y):
+        row_x += delta_row_x
+        row_y += delta_row_y
         key_to_coord = update_map(key_to_coord, row_x, row_y, row_len)
 
     key_to_value = {
